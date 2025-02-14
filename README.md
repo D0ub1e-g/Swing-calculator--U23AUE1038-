@@ -1,82 +1,43 @@
 Swing Calculator
+ A simple graphical calculator built with Java Swing.
 
-OVERVIEW
+ Features 
+Basic arithmetic operations : addit ion, subtraction, multiplicat ion, and division
+ Numeric input using buttons -9 to 0
+ decimal point Operator selection: +, -,, 
+Delete button to remove last input digit 
+Clear but ton to reset calculator 
 
-Swing Calculator is a simple GUI-based calculator built using Java Swing. It allows users to perform basic arithmetic operations, including addition, subtraction, multiplication, and division. The interface consists of a text field to display input and results, along with buttons for digits (0-9), operators (+, -, *, /), a clear (C) button, and an equals (=) button.
+Requirements
+ Java Development Kit (JDK) 8 or later
+ Java Runt ime Environment (JRE) or later 
 
-FEATURES
-
-Supports four basic arithmetic operations: addition, subtraction, multiplication, and division.
-
-A clear (C) button to reset the calculator.
-
-A responsive GUI built using Java Swing with GridLayout for button arrangement.
-
-Displays results in real-time upon pressing the "=" button.
-
-
-PREREQUISITES
-
-Ensure you have the following installed:
-
-Java Development Kit (JDK) 8 or higher
-
-An IDE or text editor (e.g., IntelliJ IDEA, Eclipse, VS Code)
+Usage 
+1. Compile the code using javac SwingCalculators . java
+ 2. Run the program using java SwingCalculators 
+3. Use the calcu lator's but tons to perform calculation s Code 
 
 
-How To Run
+CODE STRUCTURE - 
+Swing Calculculator s.java' : Main class containing the calculator's UI and logic 
+actionPerformed" method: Handles button clicks and performs calculations 
 
-1. Clone or download the source code.
+Contributing
+Pull requests and issues are welcome. Please submit any contributions or bug reports through GitHub. 
 
+License 
+This project is licensed under the MIT License. See LICENSE. txt for details . 
 
-2. Open a terminal or command prompt in the project directory.
-
-
-3. Compile the Java file:
-
-javac SwingCalculator.java
-
-
-4. Run the application:
-
-java SwingCalculator
-
-
-
-CODE EXPLANATION
-
-The SwingCalculator class extends JFrame and implements ActionListener.
-
-The GUI consists of a JTextField for displaying input/output and a panel (JPanel) containing buttons.
-
-Buttons are added to a grid layout (4x4) with an event listener (actionPerformed).
-
-Operators and numbers are processed accordingly when clicked.
-
-The "=" button computes the result, while the "C" button resets the calculator.
-
-
-FUTURE ENHANCEMENTS
-
-Implement keyboard input support.
-
-Add a decimal point (.) button for floating-point calculations.
-
-Display an error message for division by zero instead of returning 0.
-
-
-LICENSE
-
-This project is open-source and available for modification and distribution.
-
-AUTHOR
-GABRIEL YASHIM GREGORY 
-
-
-
-
-
-
-
-
-![1000011040](https://github.com/user-attachments/assets/40142b5f-04a6-49c8-933b-9793cc4264d7)
+Acknowledgments - 
+Oracle Corporation for Java Swing document ation and resources - GitHub comunity for inspiration and guidance
+ 
+   GROUP MEMBERS                     MATRIC NO-                USERNAME 
+1. NANDAG PONSAK GIDEON.             u23AUE1834                @ gideonblako
+2. OLOKO ABDULLH SULAIMAN.          U23AUE1035.                @musnad01
+3. OLUSOGA EZOMOH EZEKIEL           U23AUE1036.                @ezekosky 
+4. DANIEL LUCKY OGE                 U23AUE1037                 @mule292 
+5. GRECORY GABRLEL.                 U23AUE1038.                @D0uble-g
+6. HASSAN ABDULSAMAD ENEYE          U23AUE1039                 @enye1
+7. 1ZANNG JULIUS INYAM.             U23AUE1040                 @Yungsavage 18 
+ 8. IBRAHIM AMINU MUHAMMAD.         U23AUE1041                 @Ameen 3x
+ 9. ISHAYA HARUNA WISDOM.           U23AUE1043                 @Reuben911
